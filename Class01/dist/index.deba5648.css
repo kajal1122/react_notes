@@ -1,0 +1,72 @@
+.heading {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+img {
+  width: 150px;
+}
+
+.nav-items > ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.serach-bar {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.rest-card {
+  width: 200px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.rest-card:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+
+.rest-card > img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #d0cebc;
+  width: 200px;
+  height: 300px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.footer {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+}
+
+.icon {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=index.deba5648.css.map */
