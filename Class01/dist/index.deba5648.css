@@ -60,13 +60,57 @@ img {
 }
 
 .footer {
-  flex-wrap: wrap;
-  justify-content: space-around;
-  display: flex;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
 .icon {
   font-size: 2rem;
+}
+
+.res-info {
+  text-align: center;
+  border-style: outset;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.res-info > h4 {
+  color: #454545;
+  font-weight: lighter;
+}
+
+.menu-items > li {
+  list-style: none;
+}
+
+.menu-item {
+  text-align: center;
+  clear: both;
+  content: "";
+  border-style: outset;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  display: table;
+}
+
+.menu-item-text {
+  float: left;
+  width: 70%;
+}
+
+.menu-item-img {
+  float: right;
+  width: 30%;
+}
+
+.routes {
+  color: #000;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.deba5648.css.map */
