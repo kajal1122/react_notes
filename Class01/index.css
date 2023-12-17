@@ -139,3 +139,27 @@ img{
     text-decoration: none;
 }
 
+.user-card{
+    border-style: outset;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.user-card-text{
+    float: left;
+    width: 70%;
+    font-weight: lighter;
+    
+
+}
+
+.user-card-img{
+    float: right;
+    width: 30%;
+
+}

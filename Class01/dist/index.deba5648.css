@@ -113,4 +113,26 @@ img {
   text-decoration: none;
 }
 
+.user-card {
+  text-align: center;
+  clear: both;
+  content: "";
+  border-style: outset;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  display: table;
+}
+
+.user-card-text {
+  float: left;
+  width: 70%;
+  font-weight: lighter;
+}
+
+.user-card-img {
+  float: right;
+  width: 30%;
+}
+
 /*# sourceMappingURL=index.deba5648.css.map */
