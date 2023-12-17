@@ -16,4 +16,23 @@ React and ReactDOM is two different thing , created to handle different case ---
     we need to fetch html pages from server and load on browser .
 */
 
+/*
+   ----React Class Based Component---
+          - we need to use class keyword that will be extended from React.Component 
+          - we will need to initialize constructor function , and using super(props), props can be passed to child component 
+          -- props can be use using -> this.props
+          -- state variable can be created using this.state and this.setState can be used to update the state of variable 
+
+          ----- LifeCycle Method ---------
+            - 1st constructor function willl be called 
+            -- after that render will be called to load application on browser 
+            -- after that, componentDidMount willbe called , that can be used to handle api calls and any state change 
+            -- Whenever state is updated , componentDidUpdate() will be callled , in this 1st render () will be called and then componentDidUpdate will be called 
+            -- At the end componentWillUnMount() will be called - when the compoent is unmounted from the DOM.
+
+            -- good website to understand this 
+            https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+*/
+
 
